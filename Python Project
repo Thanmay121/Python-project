@@ -3,7 +3,7 @@ k = random.randint(1, 1000) #for a current session save a random value which wil
 data = {}
 failedatm=[]
 sucessatm=[]
-def caesar_encrypt(text, k):                 #The data hiding process used in this code
+def caesar_encrypt(text, k):                 #The data hiding process used in this code.
     result = ""
     k = k % 26
     for ch in text:
